@@ -1,4 +1,11 @@
 #!/usr/local/bin/python3
+
+"""
+" hacking from https://segmentfault.com/a/1190000017311402
+" hacking from https://segmentfault.com/a/1190000017311402
+" hacking from https://segmentfault.com/a/1190000017311402
+"""
+
 from PIL import Image
 import sys
 
@@ -29,10 +36,10 @@ def process(src, dest):
     img.show()
 
 """
-:param x坐标 x: 
-:param y坐标 y: 
-:param 区块大小 black_size: 
-:param 可操作图片数组 img_array: 
+" param x坐标 x: 
+" param y坐标 y: 
+" param 区块大小 black_size: 
+" param 可操作图片数组 img_array: 
 """
 def change_block(x, y, black_size, img_array):
 
